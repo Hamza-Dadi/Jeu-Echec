@@ -25,6 +25,38 @@ Un jeu d'échecs complet développé en **C++** avec une interface graphique **Q
 
 ---
 
+## 🚀 Installation et Exécution (Comment tester)
+
+### Avec Qt Creator (Méthode Recommandée)
+
+1. **Ouvrir le projet** : Lancez Qt Creator, allez dans `Fichier -> Ouvrir un fichier ou projet...` et sélectionnez le fichier `echecs.pro`.
+2. **Configurer le projet** : Choisissez le kit de compilation (ex: `Desktop Qt 6.11.0 MinGW 64-bit`) et cliquez sur "Configure Project".
+3. **Compiler et Lancer** : Appuyez sur le bouton vert ▶ (ou `Ctrl+R` / `Cmd+R`) en bas à gauche pour compiler le code et lancer l'interface graphique.
+
+### En ligne de commande (Console C++)
+
+Si vous souhaitez tester la logique pure du jeu sans l'interface graphique Qt, vous pouvez utiliser la version console fournie :
+
+1. Ouvrez un terminal dans le dossier du projet.
+2. Compilez les fichiers avec `g++` :
+   ```bash
+   g++ -o echecs_console main_console.cpp plateau.cpp -std=c++17
+   ```
+3. Exécutez le programme généré :
+   ```bash
+   ./echecs_console
+   ```
+
+### 🧪 Comment tester les fonctionnalités
+
+Une fois le jeu lancé :
+1. **Sélectionnez le mode** Joueur vs Joueur (pour tester avec un ami) ou Joueur vs IA (pour tester l'algorithme).
+2. **Déplacement** : Cliquez sur une pièce (les coups valides s'affichent avec des points gris), puis cliquez sur une case de destination.
+3. **Échec** : Mettez le roi adverse en danger. Vous verrez la case du roi s'illuminer en rouge et la barre de statut indiquera "ECHEC !".
+4. **Mat/Pat** : Essayez de bloquer totalement le roi adverse pour vérifier que la boîte de dialogue de fin de partie s'affiche correctement annonçant le vainqueur ou le match nul.
+
+---
+
 ## 📂 Structure du Projet
 
 ```
