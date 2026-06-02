@@ -2,10 +2,6 @@
 
 Un jeu d'échecs complet développé en **C++** avec une interface graphique **Qt**, réalisé dans le cadre d'un projet de 2ème année à l'ESISA.
 
-![C++](https://img.shields.io/badge/C++-17-blue?logo=cplusplus)
-![Qt](https://img.shields.io/badge/Qt-6-green?logo=qt)
-![License](https://img.shields.io/badge/License-MIT-yellow)
-
 ---
 
 ## 🎮 Fonctionnalités
@@ -21,66 +17,11 @@ Un jeu d'échecs complet développé en **C++** avec une interface graphique **Q
 
 ---
 
-## 📸 Aperçu
-
-| Menu principal | Partie en cours |
-|:-:|:-:|
-| *Écran d'accueil avec choix du mode* | *Plateau avec surbrillances et pièces Unicode* |
-
-> 💡 Ajoutez vos propres captures d'écran dans un dossier `screenshots/`
-
----
-
 ## 🛠 Prérequis
 
 - **Qt 6** (testé avec Qt 6.11.0)
 - **MinGW 64-bit** ou tout compilateur C++17 compatible
 - **Qt Creator** (recommandé)
-
----
-
-## 🚀 Installation et Exécution
-
-### Avec Qt Creator (recommandé)
-
-```bash
-# 1. Cloner le dépôt
-git clone https://github.com/VOTRE_USERNAME/jeu-echecs-cpp.git
-cd jeu-echecs-cpp
-
-# 2. Ouvrir le projet dans Qt Creator
-#    Fichier → Ouvrir un fichier ou projet → sélectionner echecs.pro
-
-# 3. Configurer le kit (Desktop Qt 6 MinGW 64-bit)
-
-# 4. Compiler et exécuter (Ctrl+R)
-```
-
-### En ligne de commande
-
-```bash
-# 1. Cloner le dépôt
-git clone https://github.com/VOTRE_USERNAME/jeu-echecs-cpp.git
-cd jeu-echecs-cpp
-
-# 2. Générer le Makefile avec qmake
-qmake echecs.pro
-
-# 3. Compiler
-make        # Linux/macOS
-mingw32-make  # Windows (MinGW)
-
-# 4. Lancer
-./echecs    # Linux/macOS
-echecs.exe  # Windows
-```
-
-### Version Console (sans Qt)
-
-```bash
-g++ -o echecs_console main_console.cpp plateau.cpp -std=c++17
-./echecs_console
-```
 
 ---
 
@@ -163,12 +104,7 @@ L'IA utilise un algorithme d'**évaluation simple** :
 
 ## 👤 Auteur
 
-- **Nom** : *(votre nom)*
+- **Nom** : Hamza Dadi-Mohammed Senhaji-Ziyad El Rhermoul
 - **École** : ESISA — 2ème Année
 - **Année** : 2025-2026
 
----
-
-## 📄 Licence
-
-Ce projet est sous licence MIT. Voir le fichier [LICENSE](LICENSE) pour plus de détails.
