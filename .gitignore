@@ -1,0 +1,33 @@
+# Fichiers compiles
+*.o
+*.obj
+*.exe
+*.out
+*.app
+
+# Qt Creator
+*.pro.user
+*.pro.user.*
+*.qbs.user
+*.qbs.user.*
+*.moc
+moc_*.cpp
+moc_*.h
+qrc_*.cpp
+ui_*.h
+*.autosave
+
+# Dossiers de build
+build/
+debug/
+release/
+.qtcreator/
+
+# Makefile genere
+Makefile
+Makefile.*
+
+# Fichiers systeme
+Thumbs.db
+.DS_Store
+desktop.ini
