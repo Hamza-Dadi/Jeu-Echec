@@ -5,7 +5,7 @@
 #include <QMouseEvent>
 #include <QPainter>
 #include <QTimer>
-#include "plateau.h"
+#include "../plateau.h"
 
 class EchiquierWidget : public QWidget
 {

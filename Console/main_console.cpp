@@ -1,6 +1,6 @@
 #include <iostream>
 #include <limits>
-#include "plateau.h"
+#include "../plateau.h"
 
 using namespace std;
 

@@ -7,9 +7,9 @@ SOURCES += \
     main.cpp \
     mainwindow.cpp \
     echiquierwidget.cpp \
-    plateau.cpp
+    ../plateau.cpp
 
 HEADERS += \
     mainwindow.h \
     echiquierwidget.h \
-    plateau.h
+    ../plateau.h

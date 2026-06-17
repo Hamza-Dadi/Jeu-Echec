@@ -1,0 +1,27 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Compiler Version Console",
+            "type": "shell",
+            "command": "g++",
+            "args": [
+                "-g",
+                "Console/main_console.cpp",
+                "plateau.cpp",
+                "-o",
+                "Console/echecs_console.exe",
+                "-std=c++17"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "presentation": {
+                "reveal": "always",
+                "panel": "shared"
+            },
+            "problemMatcher": "$gcc"
+        }
+    ]
+}
